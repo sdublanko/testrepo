@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+
+	<!-- These media queries are defined externally... -->
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Mobile viewport consideration 
+		  this will deal with those pesky 'retina' displays
+		  that can make a physically small device 
+		  appear much larger to a media query
+	-->	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	</head>
+	<body>
+		<h1>Media Queries</h1>
+		<div id="widescreen">Viewport has 1600px or greater width available</div>
+		<div id="fullscreen">Viewport is 1024-1600px wide</div>
+		<div id="medium">Viewport is 500-1024px wide</div>
+		<div id="thin">Viewport is less than 500px wide</div>
+		<p>Is the browser tall or short?</p>
+		<div><span id="tall">Tall</span><span id="short">Short</span></div>
+	</body>
+</html>
